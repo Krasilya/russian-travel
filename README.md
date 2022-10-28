@@ -8,4 +8,4 @@
 - адаптивность
 - БЭМ
 
-* [Ссылка](https://www.)
+* [Ссылка](https://krasilya.github.io/russian-travel/)
