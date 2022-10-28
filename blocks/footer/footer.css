@@ -1,31 +1,29 @@
-.header {
+.footer {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   max-width: 1280px;
-  font-family: 'Inter', Arial, sans-serif;
-  font-size: 24px;
-  line-height: 28px;
   padding: 0 48px;
+  max-height: 18px;
 }
 
 @media screen and (max-width: 1124px) {
-  .header {
+  .footer {
     max-width: 1024px;
   }
 }
 
 @media screen and (max-width: 984px) {
-  .header {
+  .footer {
     max-width: 768px;
     padding: 0 24px;
   }
 }
 
 @media screen and (max-width: 568px) {
-  .header {
+  .footer {
+    flex-direction: column;
     padding: 0 16px;
-    max-width: 320px;
+    gap: 32px;
+    max-height: none;
   }
 }
-
